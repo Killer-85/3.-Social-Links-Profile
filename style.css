@@ -1,0 +1,116 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer { 
+    font-size: 11px;
+    text-align: center; 
+}
+.footer a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+       
+}
+
+.profile{
+    width: 21.875rem;
+    height: 38rem;
+    background-color: hsl(0, 0%, 12%) ;
+    border-radius: 20px;
+}
+
+img{
+    
+    border-radius: 50%;
+    height: 6rem;
+    margin-top: 2rem;
+}
+
+h2{
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: -0.1rem;
+
+}
+
+.location{
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: hsl(75, 94%, 57%) ;
+    margin-bottom: 1.4rem;
+}
+
+.description{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.socialLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialLinks .links{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 1rem;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+
+.socialLinks .links:hover{
+    color: hsl(0, 0%, 8%) ;
+    background-color: hsl(75, 94%, 57%);
+}
+
+.socialLinks .github {
+    padding: 1rem 7.5rem;
+    
+}
+
+.socialLinks .frontendMentor {
+    padding: 1rem 5.2rem;
+}
+
+.socialLinks .linkedIn{
+    padding: 1rem 7rem;
+}
+
+.socialLinks .twitter{
+    padding: 1rem 7.5rem;
+}
+
+.socialLinks .instagram{
+    padding: 1rem 6.8rem;
+}
+
+
+
